@@ -20,7 +20,9 @@ _Organize ideas and collaborate using Markdown, a lightweight language for text 
   Link to docs.github.com for further explanations.
   Encourage users to open new tabs for steps!
 -->
-
+**bold**
+*italic*
+~~Strikethrough~~
 ## Step 1: Add headers
 
 _Welcome to "Communicate using Markdown"! :wave:_
@@ -31,9 +33,31 @@ _Welcome to "Communicate using Markdown"! :wave:_
 - Files with the `.md` or `.markdown` extension 🟩🔴 💛
 - Sharing snippets of text in [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
 
-**What is a _header_?** A header is a larger bit of text at the beginning of a section. There are six sizes.
+**What is a _header_?** A __header__ is a larger bit<sub>8</sub> of text at the beginning of a section. There are six sizes.
+log<sub>a</sub><sup>b</sup>
+> log<sub>a</sub><sup>b</sup> = log a / log b
+```
+cd ${project_name}
+npm i
+npm start
+```
+`#ffffff`\
+`#0969DA`\
+[Click here](https://tinyurl.com/todo-topaz)
+![Image is here](https://picsum.photos/536/354)
+<br/>
 
-### Example
+- One
+  - 1
+    - (i)
+      - a
+        - I
+          - A
+- [x] #739
+- [x] https://github.com/octo-org/octo-repo/issues/740
+- [x] Add delight to the experience when all tasks are complete :tada:
+
+### `Example`
 
 ```md
 # This is an `<h1>` header, which is the largest
@@ -83,3 +107,5 @@ Get help: [Post in our discussion board](https://github.com/orgs/skills/discussi
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
+@github-actions[bot]
+@github/support
